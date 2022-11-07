@@ -16,10 +16,23 @@ body{
 
 }
 
+.logo-img{
+  width:10vh;
+  height: auto;
+}
+
+.main-img{
+  width:70vh;
+  height: auto;
+  margin-top:-5%;
+}
+
 .section{
   border: 1px solid black;
   margin:auto;
-  padding:10px;
+  padding:20px;
+  height: auto;
+  min-height: 500px;
 }
 
 .nav-list{
@@ -28,11 +41,17 @@ body{
 
 .nav-list li{
   float:left;
-  margin-left:5em;
-  border: 1px solid black;
+  margin-left:3em;
   padding: 5px;
   font-family:fantasy;
   color: #218c74;
+}
+
+.nav-list li:hover{
+  font-weight: bolder;
+  border: 1px solid #218c74;
+  background-color:#218c74;
+  color:white;
 }
 
 .find-btn{
@@ -41,4 +60,27 @@ body{
   padding:1vh;
   margin-right:auto;
   transform: rotate(10deg);
+}
+
+
+
+.find-btn-helper{
+  border:1px solid #218c74;
+  padding:1vh;
+  transform: rotate(10deg);
+  margin-top: -30%;
+  height:1vh;
+}
+
+.left{
+  float:left;
+}
+
+.centre{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.right{
+  float:right;
 }
